@@ -1,0 +1,4 @@
+footer {
+  box-shadow: var(--boxShadow);
+  padding: 2rem 4rem;
+}

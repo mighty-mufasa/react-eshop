@@ -24,6 +24,21 @@
   --neutralMid: red;
   --neutralLight: #f9f9f9;
   --neutralLighter: #ffffff;
+
+  --boxShadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-size: 1.6rem;
 }
 
 * {
