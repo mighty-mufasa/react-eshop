@@ -1,16 +1,25 @@
 import { Link } from 'react-router-dom'
+import './Home.css'
 
 export default function Home() {
   return (
-    <>
-      <h1>Welcome to Fruits Shop</h1>
+    <div className="homeContainer">
+      <h1>Your Gateway to Innovation</h1>
+      <h3>Tech Wonderland Awaits at GadgetGalaxy</h3>
       <p>
-        Discover our selection of fresh fruits, bursting with flavor and
-        vitality. Delivered straight from the farm to your table.
+        Your ultimate destination to discover the most innovative and exciting
+        gadgets on the market. Dive into a universe of technological
+        possibilities and make your cutting-edge dreams come true with us.
+      </p>
+      <h3>Explore the future to GadgetGalaxy</h3>
+      <p>
+        Step into the world of innovation with GadgetGalaxy. Explore our curated
+        collection of the latest gadgets and tech trends that will elevate your
+        lifestyle. Experience the future today.
       </p>
       <button>
         <Link to="/store">Shop Now</Link>
       </button>
-    </>
+    </div>
   )
 }
