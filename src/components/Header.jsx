@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <header>
         <div className="logo">
-          <h1>Fruit Shop </h1>
+          <h1>Gadget Galaxy 🪐</h1>
         </div>
         <nav>
           <ul>
@@ -16,10 +16,14 @@ export default function Header() {
               <Link to="/store">Store</Link>
             </li>
             <li>
-              <button>♥️</button>
+              <button>
+                <span className="material-icons">favorite</span>
+              </button>
             </li>
             <li>
-              <button>🛒</button>
+              <button>
+                <span className="material-icons">shopping_bag</span>
+              </button>
             </li>
           </ul>
         </nav>
