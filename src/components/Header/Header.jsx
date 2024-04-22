@@ -5,9 +5,14 @@ export default function Header() {
     <>
       <header>
         <div>
-          <h1>Gadget Galaxy 🪐</h1>
+          <Link to="/">
+            <h1>Gadget Galaxy 🪐</h1>
+          </Link>
+          <button>
+            <span className="material-symbols-outlined">menu</span>
+          </button>
         </div>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -26,7 +31,7 @@ export default function Header() {
               </button>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </header>
     </>
   )

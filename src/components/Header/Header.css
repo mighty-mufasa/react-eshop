@@ -1,9 +1,18 @@
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 40px;
+  background-color: var(--neutralLighter);
   box-shadow: var(--boxShadow);
+  padding: 1rem var(--lateralPadding);
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button {
+      background-color: transparent;
+      padding: 1rem 1rem;
+      border: none;
+    }
+  }
+
   ul {
     display: flex;
     align-items: center;
@@ -12,4 +21,8 @@ header {
       list-style-type: none;
     }
   }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 800, 'GRAD' 0, 'opsz' 48;
 }
