@@ -1,44 +1,26 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-size: 62.5%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   --primary: #2c73d2;
   --primaryLight: #009ce9;
   --secondary: #00d9b3;
   --secondaryLight: #8bee86;
-
   --neutralDarkest: #1a1a1a;
   --neutralDark: #213547;
-  --neutralMid: red;
+  --neutralMid: rgb(244, 244, 244);
   --neutralLight: #f9f9f9;
   --neutralLighter: #ffffff;
-
   --boxShadow: 0 0 3px rgba(0, 0, 0, 0.1);
-}
-
-html,
-body,
-#root,
-.App {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-body {
-  font-size: 1.6rem;
+  --lateralPadding: 1.8rem;
 }
 
 * {
@@ -46,35 +28,23 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
-  font-size: 4rem;
-  /* line-height: 4;   */
+
+body {
+  background-color: var(--neutralMid);
 }
+
 a {
   color: var(--neutralDark);
-  font-size: 1.8rem;
   font-weight: 500;
   text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
 }
-
-p {
-  font-size: 1.6rem;
-  font-weight: 400;
-}
-
 button {
+  color: var(--neutralDark);
   border-radius: 8px;
-  border: 1px solid transparent;
   padding: 0.8rem 1.6rem;
-  font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
   background-color: var(--neutralDarkest);
   cursor: pointer;
-  transition: border-color 0.25s;
 }
 
 @media (prefers-color-scheme: light) {
