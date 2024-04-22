@@ -4,12 +4,15 @@ import './Home.css'
 export default function Home() {
   return (
     <div className="homeContainer">
-      <h1>Your Gateway to Innovation</h1>
-      <h3>Tech Wonderland Awaits at GadgetGalaxy</h3>
+      <h2>Welcome to your Gateway to Innovation</h2>
       <p>
         Your ultimate destination to discover the most innovative and exciting
-        gadgets on the market. Dive into a universe of technological
-        possibilities and make your cutting-edge dreams come true with us.
+        gadgets on the market.
+      </p>
+      <h3>Tech Wonderland Awaits you</h3>
+      <p>
+        Dive into a universe of technological possibilities and make your
+        cutting-edge dreams come true with us.
       </p>
       <h3>Explore the future to GadgetGalaxy</h3>
       <p>
