@@ -1,5 +1,6 @@
 import Home from './components/Home/Home'
 import App from './App'
+import Store from './components/Store/Store'
 
 export const routes = [
   {
@@ -13,7 +14,7 @@ export const routes = [
       },
       {
         path: '/store',
-        element: <h1>Welcome to store</h1>,
+        element: <Store />,
       },
     ],
   },
