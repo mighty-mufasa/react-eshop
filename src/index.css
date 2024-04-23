@@ -1,14 +1,9 @@
 :root {
-  /* color-scheme: light dark; */
-  /* color: rgba(255, 255, 255, 0.87); */
-  /* background-color: #242424; */
-
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   --primary: #2c73d2;
   --primaryLight: #009ce9;
@@ -22,37 +17,14 @@
   --boxShadow: 0 0 3px rgba(0, 0, 0, 0.1);
   --lateralPadding: 1.8rem;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: var(--neutralMid);
 }
-
-a {
-  color: var(--neutralDark);
-  font-weight: 500;
-  text-decoration: none;
-}
 button {
-  color: var(--neutralDark);
-  border-radius: 8px;
-  padding: 0.8rem 1.6rem;
-  font-weight: 500;
-  background-color: var(--neutralDarkest);
   cursor: pointer;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: var(--neutralDark);
-    background-color: var(--neutralLighter);
-  }
-  button {
-    background-color: var(--neutralLight);
-  }
 }
