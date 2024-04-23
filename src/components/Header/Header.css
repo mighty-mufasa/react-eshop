@@ -1,28 +1,26 @@
 header {
+  display: flex;
+  justify-content: center;
   background-color: var(--neutralLighter);
   box-shadow: var(--boxShadow);
   padding: 1rem var(--lateralPadding);
-  > div {
+
+  .headerContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: clamp(400px, 80%, 1000px);
+
+    a {
+      text-decoration: none;
+      color: var(--neutral);
+    }
     button {
       background-color: transparent;
-      padding: 1rem 1rem;
       border: none;
+      span {
+        font-size: 2.2rem;
+      }
     }
   }
-
-  ul {
-    display: flex;
-    align-items: center;
-    li {
-      margin: 0 10px;
-      list-style-type: none;
-    }
-  }
-}
-
-.material-symbols-outlined {
-  font-variation-settings: 'FILL' 0, 'wght' 800, 'GRAD' 0, 'opsz' 48;
 }
