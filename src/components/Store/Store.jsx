@@ -54,17 +54,21 @@ export default function Store() {
   }, [searchValue, sortValue, categoryValue, minPrice, maxPrice])
 
   return (
-    <div>
+    <div className="storeContainer">
       <h1>Welcome to our Store!</h1>
       <div className="filtersContainer">
-        <label htmlFor="">Search</label>
-        <input onChange={(e) => setSearchValue(e.target.value)} type="text" />
+        <input
+          placeholder="Search in Gadget Galaxy"
+          onChange={(e) => setSearchValue(e.target.value)}
+          type="text"
+          id="searchInput"
+        />
         <div>
           <label htmlFor="">Sort by</label>
           <select onChange={(e) => setSortValue(e.target.value)}>
             <option value="rating">Rating</option>
-            <option value="increase">Price Increase</option>
-            <option value="decrease">Price Decrease</option>
+            <option value="increase">Increase Price</option>
+            <option value="decrease">Decrease Price</option>
           </select>
         </div>
         <div>
