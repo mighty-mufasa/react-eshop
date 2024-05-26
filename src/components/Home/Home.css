@@ -5,17 +5,21 @@
   text-align: center;
   gap: 16px;
   max-width: 450px;
+  margin: 4rem 0;
   p {
-    margin-bottom: 32px;
+    margin-bottom: 4rem;
   }
+
   button {
     border: none;
-    /* padding: 1.4rem 4rem; */
+    padding: 1.4rem 4rem;
+    border-radius: 1.4rem;
     background-color: var(--primaryLight);
     a {
       font-weight: 600;
-      font-size: 1.4rem;
+      font-size: 2rem;
       color: var(--neutralLighter);
+      text-decoration: none;
     }
   }
 }
