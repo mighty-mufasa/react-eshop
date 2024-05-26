@@ -16,6 +16,8 @@
   --neutralLighter: #ffffff;
   --boxShadow: 0 0 3px rgba(0, 0, 0, 0.1);
   --lateralPadding: 1.8rem;
+
+  font-size: 62.5%;
 }
 * {
   margin: 0;
@@ -24,7 +26,17 @@
 }
 body {
   background-color: var(--neutralMid);
+  font-size: 1.6rem;
 }
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: var(--neutralLight);
+}
+
 button {
   cursor: pointer;
 }
